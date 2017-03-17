@@ -1,5 +1,4 @@
-﻿
-function Get-GitHubModule{
+﻿function Get-GitHubModule{
     param([Parameter(Mandatory=$true, Position = 0, ValueFromPipeline=$true)][string[]]$RepoUrl)
     process{
         $RepoUrl | % {
