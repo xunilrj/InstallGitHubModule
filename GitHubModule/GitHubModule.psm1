@@ -59,5 +59,3 @@ function Install-GitHubModule
             }
         }
 }
-
-Export-ModuleMember Get-GitHubModule, Install-GitHubModule
